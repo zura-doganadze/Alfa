@@ -47,20 +47,6 @@ a {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* header */
 
 .header-wrapper-div {
@@ -140,29 +126,6 @@ a {
 }
 /* burger */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* catalogi 1*/
 
 .h2-conteiner {
@@ -192,7 +155,7 @@ a {
 .product {
     position: relative;
     overflow: hidden;
-    padding: 50px 0px 100px 70px;
+    padding: 50px 70px 100px 70px;
     background: var(--section-background-color);
 }
 .first-product-conteiner {
@@ -284,33 +247,7 @@ a {
 .h3-conteiner h3 span {
     color: var(--h-span-color);
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 /* section 3 */
 .h4-conteiner {
     display: flex;
@@ -344,26 +281,7 @@ a {
     font-size: 16px;
     color: var(--catalog-text-colot);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 /* section 4 */
 .h5-conteiner {
     display: flex;
@@ -423,31 +341,7 @@ a {
     display: inline-block;
     padding-bottom: 11px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 /* footer */
 footer {
     background: var(--footer-background-color);
@@ -457,9 +351,10 @@ footer {
     max-width: 335px;
     position: relative;
 }
-.footer-form-conteiner form label {
+.search-span {
     color: var(--footer-text-color);
     font-size: 16pxs;
+    width: 170px;
 }
 .footer-form-conteiner form input {
     border-radius: 6px;
@@ -471,8 +366,9 @@ footer {
     border: none;
     position: absolute;
     background-color: inherit;
-    top: 45%;
-    left: 40%;
+    top: 21%;
+    right: 17%;
+    transform: translate(50%, 50%);
     cursor: pointer;
 }
 .footer-social-icons-conteiner {
@@ -542,19 +438,7 @@ footer {
     padding-bottom: 19px;
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 .hamburger {
     display: none;
     cursor: pointer;
@@ -570,12 +454,7 @@ footer {
     background-color: var(--message-box-color);
     /* margin-left: 120px; */
 }
-
-
-
-
-
-
+ 
 /* prodacts */
 .header-main-div {
     background: var(--section-background-color);
@@ -733,68 +612,7 @@ footer {
     cursor: pointer;
     margin: 43px 0px 63px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 @media (max-width: 750px) {
 
   .hamburger {
